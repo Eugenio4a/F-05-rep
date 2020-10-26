@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url(milan-holidays-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.wrapper {
+    width: 1366px;
+    height: 950px;
+    margin: 0 auto;
+}
+
+.main_content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    color: #fff;
+    height: 120px;
+}
+
+.header div {
+    display: inline-block;
+    transition: 0.5s ease-in-out;
+}
+
+.contacts {
+    margin-right: auto;
+    float: right;
+    margin: 80px 0px 0px 0px;
+    text-align: end;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contacts p:hover {
+    text-decoration: underline;
+    color: #f26522;
+    transition: 0.4s ease-in-out;
+}
+
+.logo {
+    margin-left: 87px;
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+}
+
+.logo:hover {
+    color: #f26522;
+    transition: 0.2s ease-in-out;
+}
+
+.logo:hover h1:before {
+    background-image: url(./logo-hover.png);
+    transition: 0.2s ease-in-out;
+}
+
+.logo span {
+    letter-spacing: 5px;
+}
+
+h1:before {
+    content: "";
+    display: block;
+    width: 63px;
+    height: 59px;
+    background-image: url(logo.png);
+    position: relative;
+    top: 59px;
+    right: 87px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+.content {}
+
+.top_line,
+.bottom_line {
+    width: 1000px;
+    height: 230px;
+    margin: 0 auto;
+    padding: 25px 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.first-img,
+.second-img,
+.third-img,
+.fourth-img,
+.fifth-img,
+.sixth-img {
+    width: 277px;
+    height: 180px;
+    background-color: #335522;
+    border: 1px solid #fff;
+    display: inline-block;
+}
+
+.content {
+    transition: 0.6s ease-in-out;
+}
+
+.first-img p,
+.second-img p,
+.third-img p,
+.fourth-img p,
+.fifth-img p,
+.sixth-img p {
+    color: #fff;
+    padding-top: 240px;
+    text-align: center;
+}
+
+.first-img {
+    background-image: url(./first-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.second-img {
+    background-image: url(./second-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.third-img {
+    background-image: url(./third-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fourth-img {
+    background-image: url(./fourth-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fifth-img {
+    background-image: url(./fifth-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sixth-img {
+    background-image: url(./six-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sixth-img {
+    margin-bottom: auto;
+}
+
+.empty {
+    width: 277px;
+    height: 119px;
+}
+
+.invisible {
+    width: 277px;
+    height: 60px;
+    background-color: #f26522;
+    border: 1px solid#f26522;
+    opacity: 0;
+    display: inline-block;
+    color: #fff;
+}
+
+.invisible div {
+    width: 100%;
+    height: 50%;
+}
+
+.description {
+    display: inline-block;
+}
+
+.details {
+    float: right;
+    font-size: 16px;
+    margin: 0px 55px 10px 10px;
+}
+
+.details::after {
+    content: "";
+    background-image: url(./arrow.png);
+    width: 8px;
+    height: 10px;
+    display: block;
+    position: relative;
+    left: 90px;
+    bottom: 13px;
+}
+
+.from {
+    font-size: 12px;
+    padding-left: 40px;
+    vertical-align: -10px;
+}
+
+.price {
+    font-size: 22px;
+    padding-left: 35px;
+}
+
+.top_line .content_tab {
+    display: inline-block;
+}
+
+.bottom_line .content_tab {
+    display: inline-block;
+}
+
+.content_tab:hover .invisible {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.content_tab:hover.content_tab p {
+    color: #e25f20;
+}
+
+.top_line .content_tab:nth-child(-n+2) {
+    margin-right: 77px;
+}
+
+.bottom_line .content_tab:nth-child(-n+2) {
+    margin-right: 77px;
+}
+
+.content_tab p {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+.invisible span:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
